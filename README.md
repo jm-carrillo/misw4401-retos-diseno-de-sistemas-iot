@@ -49,4 +49,16 @@ int sensorRawToLux(int raw){
 }
 ```
 
+Adicional se agrega un bloque de código para detectar cuando la variable de iluminación es buena en el entorno 
+
+```
+luxValue = sensorRawToLux(photoValue);
+  if (luxValue > 150){  // LED que indica que hay buena luminosidad (mayor a 150 lx)
+      digitalWrite(LED_PR, HIGH);
+  }
+  else{
+      digitalWrite(LED_PR, LOW);
+  }
+  ```
+
 Al ejecutar el archivo mencionado los datos se van a cargar en la nube, es decir, se guardan los datos recolectados en tiempo real.
