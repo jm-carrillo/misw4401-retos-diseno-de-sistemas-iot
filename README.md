@@ -37,7 +37,7 @@ const char MQTT_PUB_TOPIC2[] = "temperatura/{{nombre_ciudad}}/" HOSTNAME;
 const char MQTT_PUB_TOPIC3[] = "luminosidad/{{nombre_ciudad}}/" HOSTNAME;
 ```
 
-Y este bloque de codigo toma las medidas del fotoresistor (OSOYOO Ligth sensor) y lo convierte a lux que es la unidad derivada del Sistema Internacional de Unidades para la iluminancia o nivel de iluminación.​​
+Y este bloque de codigo toma las medidas del fotoresistor [OSOYOO Ligth sensor](https://osoyoo.com/2021/08/21/arduino-graphic-programming-learning-kit-lesson-7-light-detect-module/) y lo convierte a lux que es la unidad derivada del Sistema Internacional de Unidades para la iluminancia o nivel de iluminación.​​
 
 ```
 int sensorRawToLux(int raw){
@@ -48,3 +48,5 @@ int sensorRawToLux(int raw){
   return lux;
 }
 ```
+
+Al ejecutar el archivo mencionado los datos se van a cargar en la nube, es decir, se guardan los datos recolectados en tiempo real.
