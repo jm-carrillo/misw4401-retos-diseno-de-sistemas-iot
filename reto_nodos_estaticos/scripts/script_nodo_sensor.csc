@@ -21,7 +21,7 @@ if(tipo=="alerta")
 end
 
 if(tipo=="stop")
-   cprint "Nodo detenido. Se recibio mensaje indicando que otro sensor de la red se ha detenido"
+   cprint "Nodo detenido. Se recibio mensaje indicando que otro sensor de la red se ha detenido. Se enviaron " ite "mensajes de alerta en total."
    data mens "stop" id
    send mens * ant   
    stop
