@@ -2,7 +2,7 @@
 
 Reto 4: Capa de Datos
 
-Pasos para desplegar la aplicacion web localmente y ejecutar las pruebas, utilizando la base de datos postgres desplegada en la nube:
+### Pasos para desplegar la aplicacion web localmente y ejecutar las pruebas, utilizando la base de datos postgres desplegada en la nube:
 - desplegar la base de datos y generar los datos de acuerdo a los pasos en el tutorial
 - descomprimir el archivo postgresMonitoring.zip
 - Ingresar la IP del servidor que tiene desplegada la base de datos postgres en el archivo settings, como se muestra a continuacion:
@@ -23,7 +23,7 @@ Pasos para desplegar la aplicacion web localmente y ejecutar las pruebas, utiliz
 - http://localhost:8000/nueva-consulta/Temperatura?from=1624165200000&to=1626411599999&minTemp=10&maxTemp=18&minLat=1&maxLat=10&minLng=65&maxLng=75
 
 
-Pasos para desplegar en instancia 
+### Pasos para desplegar en instancia 
 - Se debe obtener el zip en la maquina con el siguiente comando: 
   ```
   wget https://github.com/jm-carrillo/misw4401-retos-diseno-de-sistemas-iot/raw/main/reto_capa_datos/postgresMonitoring.zip -O server2.zip
