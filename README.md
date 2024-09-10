@@ -39,7 +39,7 @@ Pasos para desplegar en instancia
 - Abrir Postman
 - Realizar una peticion Get con el siguiente endpoint:
 - http://<ip-maquina>:8000/nueva-consulta/Temperatura?from=1624165200000&to=1626411599999&minTemp=10&maxTemp=18&minLat=1&maxLat=10&minLng=65&maxLng=75
-  Nota: debido a que las ip cambian, la base de datos debe modificar el host de apuntamiento
+  ### Nota: debido a que las ip cambian, la base de datos debe modificar el host de apuntamiento
   ![imagen](https://github.com/user-attachments/assets/0abfd3f7-2dd9-406b-85bc-6da150cc9e9e)
   ![imagen](https://github.com/user-attachments/assets/3d330b2b-d08a-4836-8ec1-a8bfbead0430)
 
